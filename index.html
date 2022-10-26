@@ -1,90 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>Eric's A Joyful</title>
-    <!-- <link rel="stylesheet" href="normalize.css" type="text/css"> -->
-    <link rel="stylesheet" href="sakura.css" type="text/css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eric's Introduction Page">
+  <meta name="author" content="EricsAJoyful | Eric">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/af72103335.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div class="hero">
-        <h1>EricsAJoyful</h1>
-        <subtitle>Eric, he/him, 20</subtitle>
+<div class="title">
+  <p>EricsAJoyful</p>
+  <p id="age">Eric, he/him, </p>
+</div>
+<div class="imageContainer">
+  <div class="slider" >
+    <div class="slide">
+      <img src="heechul.png">
     </div>
-    <div item-container>
-        <h4>Ults:</h4>
-        <div class="column">
-            <img src="heechul.jpg">
-            <img src="joy.png">
-            <img src="momo.png">
-            <img src="ryujin.png">
-            <img src="winter.png">
-        </div>
-        <div class="container">
-            <div class="item heechulimg" data-name="Heechul"></div>
-            <div class="item joyimg" data-name="Joy"></div>
-            <div class="item momoimg" data-name="Momo"></div>
-            <div class="item ryujinimg" data-name="Ryujin"></div>
-            <div class="item winterimg" data-name="Winter"></div>
-        </div>
+    <div class="slide">
+      <img src="joy.png">
     </div>
-
-    <div class="tabs-container">
-        <div class="tabs">
-            <input type="radio" name="tabs" id="tab-1" checked="checked">
-            <label for="tab-1">Stan</label>
-
-            <input type="radio" name="tabs" id="tab-2">
-            <label for="tab-2">BYF</label>
-
-            <input type="radio" name="tabs" id="tab-3">
-            <label for="tab-3">DFI</label>
-            <div class="tab stantab">
-                <li>
-                    <table>
-                        <tr>
-                        <td><h4>Groups:</h4></td>
-                        </tr>
-                        <tr>
-                        <td>Super Junior, Red Velvet, TWICE, SNSD, (G)I-DLE, EXID, Dreamcatcher, ITZY, Aespa, Weki Meki, Apink, OH MY GIRL, Everglow, WJSN, fromis_9</td>
-                    </table>
-                    <table>
-                        <tr>
-                        <td><h4>People:</h4></td>
-                        </tr>
-                        <tr>
-                        <td>Taeyeon, Yoona, Seulgi, Hayoung, Yuqi, Miyeon, Hani, Binnie, Seola, Luda, JiU, Sihyeon, Nakyung, Sejeong</td>
-                        </tr>
-                    </table>
-                </li>
-            </div>
-            <div class="tab">
-                <h4>Some things to be wary of before you follow:</h4>
-                <li>Tweet about dramas (sometimes with spoilers)</li>
-                <li>Occasional vent tweets</li>
-                <li>Random bits of life</li>
-                <li>Periods of hibernation</li>
-            </div>
-            <div class="tab">
-                <h4>Do not follow if:</h4>
-                <li>You fit basic DFI criteria</li>
-                <li>You anti any groups</li>
-                <li>You are a specific generation stan</li>
-                <li>You are an akgae</li>
-                <li>You are toxic</li>
-            </div>
-        </div>
+    <div class="slide">
+      <img src="yoona.png">
     </div>
-    <footer>
-        <div class="footer">
-            <p>Made with ♥ by Eric</p>
-            <p>Created with sakura.css</p>
-            <a href="https://twitter.com/EricsAJoyful?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @EricsAJoyful</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-    </footer>
+    <div class="slide">
+      <img src="momo.png">
+    </div>
+    <div class="slide">
+      <img src="ryujin.png">
+    </div>
+    <div class="slide">
+      <img src="winter.png">
+    </div>
+  </div>
+  <div class="imageNav">
+    <div class="imageTitle slider-1">
+      <div class="slide-1">
+        <p class="personName">Heechul</p>
+        <p class="groupName">Super Junior</p>
+      </div>
+      <div class="slide-1">
+        <p class="personName">Joy</p>
+        <p class="groupName">Red Velvet</p>
+      </div>
+      <div class="slide-1">
+        <p class="personName">Yoona</p>
+        <p class="groupName">Girls' Generation</p>
+      </div>
+      <div class="slide-1">
+        <p class="personName">Momo</p>
+        <p class="groupName">Twice</p>
+      </div>
+      <div class="slide-1">
+        <p class="personName">Ryujin</p>
+        <p class="groupName">Itzy</p>
+      </div>
+      <div class="slide-1">
+        <p class="personName">Winter</p>
+        <p class="groupName">Aespa</p>
+      </div>
+    </div>
+    <button class="btn btn-prev">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+    <button class="btn btn-next">
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+    </div>
+</div>
+<div class="tabs-container">
+  <div class="tabs">
+      <input type="radio" name="tabs" id="tab-1" checked="checked">
+      <label for="tab-1">Stan</label>
+
+      <input type="radio" name="tabs" id="tab-2">
+      <label for="tab-2">BYF</label>
+
+      <input type="radio" name="tabs" id="tab-3">
+      <label for="tab-3">DFI</label>
+      <div class="tab stantab">
+          <li>
+              <table>
+                  <tr>
+                  <td><h4>Groups:</h4></td>
+                  </tr>
+                  <tr>
+                  <td>Super Junior, Red Velvet, TWICE, SNSD, (G)I-DLE, EXID, Dreamcatcher, ITZY, Aespa, Weki Meki, Apink, OH MY GIRL, Everglow, WJSN, fromis_9</td>
+              </table>
+              <table>
+                  <tr>
+                  <td><h4>People:</h4></td>
+                  </tr>
+                  <tr>
+                  <td>Taeyeon, Seulgi, Hayoung, Yuqi, Miyeon, Hani, Binnie, Seola, Luda, JiU, Sihyeon, Nakyung, Sejeong</td>
+                  </tr>
+              </table>
+          </li>
+      </div>
+      <div class="tab">
+          <h4>Some things to be wary of before you follow:</h4>
+          <li>Tweet about dramas (sometimes with spoilers)</li>
+          <li>Occasional vent tweets</li>
+          <li>Random bits of life</li>
+          <li>Periods of hibernation</li>
+      </div>
+      <div class="tab">
+          <h4>Do not follow if:</h4>
+          <li>You fit basic DFI criteria</li>
+          <li>You anti any groups</li>
+          <li>You are a specific generation stan</li>
+          <li>You are an akgae</li>
+          <li>You are toxic</li>
+      </div>
+  </div>
+</div>
+<script>
+  const date = new Date();
+  let currentYear = date.getFullYear();
+  let age = (currentYear - 2001);
+  document.getElementById("age").innerHTML += age;
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>
